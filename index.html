@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Fardin Mahi's Best Hits 💙</title>
+    <meta charset="UTF-8">
+    <title>10 Songs That Define Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <h1>🎵 Fardin Mahi's Best Hits 🎵</h1>
-  <p>Songs he sang just for me 💙</p>
+    <header>
+        <h1>10 Songs That Define Me</h1>
+        <p>Every song - a core memory</p>
+    </header>
 
-  <p>Coming soon...</p>
 
+<script src="script.js"></script>
+    <section class="songs-container">
+
+    <div class="song-card" data-song="song1.mp3" data-image="images/song1.jpg" data-note="My childhood fav."><div class="song-icon">🎵</div><div class="song-title">Fireworks- Katy Perry</div></div>
+    <div class="song-card" data-song="song2.mp3" data-image="images/song2.jpg" data-note="Favourite Shower Song."><div class="song-icon">🎶</div><div class="song-title">Right Round- Flo Rida</div></div>
+    <div class="song-card" data-song="song3.mp3" data-image="images/song3.jpg" data-note="Inner Monologue ALWAYS."><div class="song-icon">🎵</div><div class="song-title">Final Masquerade - Linking Park</div></div>
+    <div class="song-card" data-song="song4.mp3" data-image="images/song4.jpg" data-note="First Love?."><div class="song-icon">🎶</div><div class="song-title"> Already Taken - Trey Songz</div></div>
+    <div class="song-card" data-song="song5.mp3"data-image="images/song5.jpg" data-note="Chaad Chills."><div class="song-icon">🎵</div><div class="song-title">Ribs - Lorde</div></div>
+    <div class="song-card" data-song="song6.mp3" data-image="images/song6.jpg" data-note="LOCK IN"><div class="song-icon">🎶</div><div class="song-title">Car radio - Twenty One Pilots</div></div>
+    <div class="song-card" data-song="song7.mp3" data-image="images/song7.jpg" data-note="Dance Lover"><div class="song-icon">🎵</div><div class="song-title">Roses- Chainsmokers</div></div>
+    <div class="song-card" data-song="song8.mp3" data-image="images/song8.jpg" data-note="Dreamy."><div class="song-icon">🎶</div><div class="song-title">Just The Way You Are - Bruno Mars</div></div>
+    <div class="song-card" data-song="song9.mp3" data-image="images/song9.jpg" data-note="Never not in love."><div class="song-icon">🎵</div><div class="song-title">Take Me To Church - Hozier</div></div>
+    <div class="song-card" data-song="song10.mp3" data-image="images/song10.jpg" data-note="Sad Support."><div class="song-icon">🎶</div><div class="song-title">Demons- Imagine Dragons</div></div>
+    
+    
+
+</section>
+
+    <footer>
+        Made by <span>Prionti</span> — Thank you for listening 💛
+    </footer>
+</div>
+<div class="modal" id="playerModal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+
+        
+        <img id="modalImage" class="modal-image" src="" alt="Song Image">
+        <p id="modalNote" class="modal-note"></p>
+        <h2 id="modalSongTitle"></h2>
+        
+
+        <audio id="audioPlayer" controls>
+        <source id="audioSource" src="" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    </div>
 </body>
 </html>
+
